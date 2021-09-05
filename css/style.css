@@ -3,10 +3,10 @@ body {
 }
 
 hr {
-  border-style: dotted none none;
-  width: 5%;
   border-color: gray;
+  border-style: dotted none none;
   border-width: 5px;
+  /* width: 5%; */
 }
 
 h3 {
@@ -15,4 +15,12 @@ h3 {
 
 h1 {
   color: #66bfbf;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.circular:hover {
+  border-radius: 0%;
 }
